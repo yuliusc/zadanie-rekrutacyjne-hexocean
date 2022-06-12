@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
 
 const Container = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 90%;
   padding: 10px 0;
   box-shadow: 0 0 10px #dddddd;
 
@@ -79,7 +78,11 @@ const Row = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  height: 60px;
+  height: auto;
+
+  @media (min-width: 575px) {
+    height: 60px;
+  }
 `;
 
 const Column = styled.div`

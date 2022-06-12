@@ -68,7 +68,6 @@ const useForm = () => {
   };
 
   const makePostRequest = (e, dataToPost) => {
-    const axios = require("axios");
     const data = JSON.stringify(dataToPost);
     const config = {
       method: "post",
