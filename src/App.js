@@ -1,11 +1,11 @@
-import "./App.css";
+import { Container } from "./App.styles";
 import Form from "./Form/Form";
 
 function App() {
   return (
-    <div className="App">
+    <Container className="App">
       <Form />
-    </div>
+    </Container>
   );
 }
 
