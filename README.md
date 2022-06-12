@@ -2,7 +2,7 @@
 
 ## Installation and setup instructions
 
-Clone or download repository. You need node and npm installed globally on your machine.
+Clone or download the repository. You need node and npm installed globally on your machine.
 
 Install all packages: `npm install`
 
